@@ -25,7 +25,8 @@ source ihenv/bin/activate
 pip3 install -r requirements
 ```
 3. Run the python app
-```python3 app.py
+```
+python3 app.py
 ```
 Now, the app should be running on the localhost, browse to to the link where your app is running. (most probably, http://127.0.0.1:5000/)
 
@@ -41,6 +42,9 @@ pip freeze > requirements.txt
 ## Built With
 * [Flask](http://flask.pocoo.org/docs/1.0/) - Web framework used for backend.
 * [Bootstrap](http://getbootstrap.com/docs/4.1/getting-started/introduction/) - Web framework used for frontend.
+
+## Resources
+* [Web Scrapping | Automate the Boring Stuff with Python](https://automatetheboringstuff.com/chapter11/)
 
 ## Contributing
 If you are really interested in contributing to the please follow the below steps and rules.
